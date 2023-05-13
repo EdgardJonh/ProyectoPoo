@@ -28,7 +28,7 @@ function traeDatos() {
     let telefono = document.getElementById('txttelefono').value
 
     asignarDatosalobjeto(nombre, apellido, telefono, correo)
-    alert('datos almacenados')
+    alert('datos almacenados correctamente')
 
 
 }
