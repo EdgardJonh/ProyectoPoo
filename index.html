@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="eventosDatos()">
+    <div >
+        <form action="botonEnviar" method="get">
+            <label for="txtnombre">Nombre</label>
+            <input type="text" id="txtnombre" name="txtnombre" value="">
+            <br>
+            <label for="txtapellido">Apellido</label>
+            <input type="text" id="txtapellido" name="txtapellido" value="">
+            <br>
+            <label for="txtcorreo">Correo</label>
+            <input type="" id="txtcorreo" name="txtcorreo" value="">
+            <br>
+            <label for="txttelefono">celular</label>
+            <input type="cel" id="txttelefono" name="txttelefono" value="">
+            <br>
+            <input type="button" id="botonEnviar" value="Enviar">
+        </form>
+
+
+    </div>
+    <div>
+        <h1>Mostrar Datos</h1>
+        <p id="saludar"></p>
+        <p id="contacto"></p>
+        <input type="button" id="elbotonMostrar" value="Muetra los Datos">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
